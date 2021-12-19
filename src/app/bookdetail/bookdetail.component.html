@@ -1,0 +1,19 @@
+
+
+<div class="container">
+
+    <ul>
+        
+        <p>bookdetail!</p>
+        <li *ngFor="let b of books | async" >
+            <br>Id-{{b.id}}
+            <br>Name-{{b.name}}
+            <br>category-{{b.category}}
+            <br>
+        </li>
+        
+        
+        <button (click)="close()">Close</button>
+        
+    </ul>
+</div>

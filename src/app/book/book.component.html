@@ -1,0 +1,11 @@
+<div class="container">
+
+    <ul>
+        <h3>Book List</h3>
+        <li *ngFor="let b of books | async" >
+            {{b.id}}
+            {{b.name}}
+            {{b.category}}
+        </li>
+    </ul>
+</div>

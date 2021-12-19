@@ -1,0 +1,21 @@
+ul{
+    display: flex;
+    background-color: black;
+    padding: 5px 36px;
+}
+li{
+    list-style: none;
+    padding: 9px;
+}
+
+a{
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(230, 220, 220);
+    font-size: large;
+    font-weight: 700;
+}
+
+a:hover{
+    color: white;
+}
